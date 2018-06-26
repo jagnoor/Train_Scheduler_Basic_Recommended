@@ -1,13 +1,14 @@
 // Initialize Firebase
   var index = 0;
 
+  // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyC7Q-sH90v4Mzh3hsDzvf5Yw60E0jafnTg",
-    authDomain: "train-scheduler-assignme-1a829.firebaseapp.com",
-    databaseURL: "https://train-scheduler-assignme-1a829.firebaseio.com",
-    projectId: "train-scheduler-assignme-1a829",
-    storageBucket: "",
-    messagingSenderId: "821957441038"
+    apiKey: "AIzaSyAMlGWjyoDcdgdSgrx4wuTTpV6LQBl3BGI",
+    authDomain: "trainassignment-79767.firebaseapp.com",
+    databaseURL: "https://trainassignment-79767.firebaseio.com",
+    projectId: "trainassignment-79767",
+    storageBucket: "trainassignment-79767.appspot.com",
+    messagingSenderId: "324131880046"
   };
   firebase.initializeApp(config);
 
@@ -90,11 +91,14 @@
 
    index++;
   	
-  }, function (error) {
+  }, 
+  
+  //function (error) {
 
-  	alert(error.code);
+  	//alert(error.code);
 
-  });
+//  }
+);
 
   function removeRow () {
     $(".row-" + $(this).attr("data-index")).remove();
