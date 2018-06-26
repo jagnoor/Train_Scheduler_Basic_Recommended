@@ -1,7 +1,7 @@
 // Initialize Firebase
 var index = 0;
 
- // Initialize Firebase
+ // Initialize Firebase https://console.firebase.google.com/u/0/project/trainchoochoo-bf5aa/overview
  var config = {
   apiKey: "AIzaSyCSOBKLrMeN2W73DGtgMoAgFSS3vC_bNDY",
   authDomain: "trainchoochoo-bf5aa.firebaseapp.com",
@@ -11,7 +11,6 @@ var index = 0;
   messagingSenderId: "753497564102"
 };
 firebase.initializeApp(config);
-
 
 
 var database = firebase.database();
